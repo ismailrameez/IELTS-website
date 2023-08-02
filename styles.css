@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
 
 
 *{
@@ -42,7 +41,8 @@ nav{
 }
 
 .logo{
-    width: 140px;
+    width: 100px;
+    height: 100px;
 }
 
 span{
@@ -158,7 +158,7 @@ nav ul li a:hover::after{
 #about{
     width: 100%;
     padding: 100px 0;
-    background-color: #fff;
+    background-color: #DFD7BF;
 }
 
 .about{
@@ -186,14 +186,14 @@ nav ul li a:hover::after{
 }
 
 .about-text h2{
-    color: #080808;
+    color: #3E001F;
     font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .about-text p{
-    color: rgba(245, 21, 151, 0.8);
+    color: #333;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 28px;
@@ -201,19 +201,79 @@ nav ul li a:hover::after{
     margin-bottom: 45px;
 }
 
+
+/*----------icons----------*/
+
+.abticons{
+    font-size: 68px; 
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.icon1 i{
+    text-shadow: 1px 3px 2px #000;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.icon1 p{
+    font-size: 20px;
+    color: #000;
+    margin-left: 60px;
+}
+
+.icon2 i{
+    text-shadow: 1px 3px 2px #000;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+    top: 50px;
+}
+
+.icon2 p{
+    font-size: 20px;
+    color: #000;
+    margin-left: 60px;
+}
+
+.icon3 i{
+    text-shadow: 1px 3px 2px #000;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.icon3 p{
+    font-size: 20px;
+    color: #000;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
 /*------service------*/
 
 #service{
     background: #fff;
     width: 100%;
-    padding: 100px 0px;
+    padding: 60px 0px;
 }
 
 .title h2{
-    color: #080808;
-    font-size: 75px;
+    color: #3E001F;
+    font-size: 50px;
     width: 1130px;
-    margin: 30px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -230,6 +290,7 @@ nav ul li a:hover::after{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 30px;
 }
 
 .serve1 img{
@@ -238,14 +299,14 @@ nav ul li a:hover::after{
 }
 
 .serve1-text h3{
-    color: #080808;
-    font-size: 50px;
+    color: #3E001F;
+    font-size: 35px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .serve1-text p{
-    color: rgba(245, 21, 151, 0.8);
+    color: #333;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 28px;
@@ -280,14 +341,14 @@ nav ul li a:hover::after{
 }
 
 .serve2-text h3{
-    color: #080808;
-    font-size: 50px;
+    color: #3E001F;
+    font-size: 35px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .serve2-text p{
-    color: rgba(245, 21, 151, 0.8);
+    color: #333;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 28px;
@@ -322,20 +383,234 @@ nav ul li a:hover::after{
 }
 
 .serve3-text h3{
-    color: #080808;
-    font-size: 50px;
+    color: #3E001F;
+    font-size: 35px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .serve3-text p{
-    color: rgba(245, 21, 151, 0.8);
+    color: #333;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 28px;
     text-transform: capitalize;
     margin-bottom: 45px;
 }
+
+
+
+
+/*----------Mocktest----------*/
+
+
+#mock{
+    background: #DFD7BF;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+
+
+.mock{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mock h1{
+    color: #3E001F;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.mock-text p{
+    color: #333;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+.mock .button{
+    background-color: #f9004d;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.4s;
+    
+}
+
+.mock .button:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+
+
+
+/*----------pricing----------*/
+
+
+
+#courses{
+    background: #fff;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: #3E001F;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #F2EAD3;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h2{
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: #333;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color: brown;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*----------FAQ----------*/
+
+#wrapper{
+    background: #DFD7BF;
+    text-align: center;
+    height: 750px;
+    width: 100%;
+    padding: 75px 115px;
+}
+
+.wrapper{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.wrapper h1{
+    color: #3E001F;
+}
+
+.wrapper > p,
+.wrapper > h1{
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+.wrapper > h1{
+    letter-spacing: 3px;
+}
+
+.accordion{
+    background-color: #F2EAD3;
+    color: rgba(0,0,0,0.8);
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.accordion i{
+    font-size: 25px;
+}
+
+.active, 
+.accordion:hover{
+    background-color: #f1f7f5;
+}
+
+.pannel{
+    padding: 0 18px 25px 18px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    display: none;
+}
+
+.pannel p{
+    color: #101010;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.faq{
+    border: 1px solid rgba(0,0,0,0.2);
+    margin: 10px 0;
+}
+
+.faq .active{
+    border: none;
+}
+
+
+
 
 /*------contact------*/
 
@@ -345,6 +620,8 @@ nav ul li a:hover::after{
     font-size: 50px;
     align-items: center;
     text-align: center;
+    margin: 20px auto;
+    margin-top: 90px;
 }
 
 .contact form{
@@ -381,22 +658,24 @@ nav ul li a:hover::after{
 
 
 
+
 /*------footer------*/
 
 footer{
     position: relative;
     width: 100%;
-    height: 400px;
-    background: #fff;
+    height: 300px;
+    background: #DFD7BF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 30px auto;
 }
 
 footer p:nth-child(1){
     font-size: 30px;
-    color: #101010;
+    color: #080808;
     margin-bottom: 20px;
     font-weight: bold;
 }
